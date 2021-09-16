@@ -1,6 +1,6 @@
 #include "compara.h"
 
-void printTrei(int numere[], int dimensiune)
+void printTrei(int *numere, int dimensiune)
 {
 	std::sort(numere, numere+dimensiune);
 	std::cout << numere[0] << " " << numere[1] << " " << numere[2] << std::endl;

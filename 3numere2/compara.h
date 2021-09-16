@@ -2,4 +2,4 @@
 #include <iostream>
 #include <algorithm>
 
-void printTrei(int arr[], int dimensiune);
+void printTrei(int *numere, int dimensiune);
